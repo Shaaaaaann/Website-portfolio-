@@ -1,0 +1,212 @@
+/* Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6F4E37; /* Coffee Color Background */
+  color: #fff; /* White Text Color for Dark Background */
+}
+
+/* Header Styles */
+header {
+  background-color: #D2B48C; /* Tan Color Background for Header */
+  color: #333; /* Dark Text Color for Header */
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the categories */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #333; /* Link Color */
+  text-decoration: none;
+  padding: 10px 20px; /* Add padding for each category */
+  border: 1px solid #333; /* Add border around each category */
+  border-radius: 5px; /* Add rounded corners to the boxes */
+  margin: 0 5px; /* Add margin between categories */
+}
+
+/* Hover Effect for Links */
+nav ul li a:hover {
+  background-color: #333; /* Darken background on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Responsive Styles for Phone View */
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-wrap: wrap; /* Allow categories to wrap to the next line */
+  }
+
+  nav ul li {
+    margin: 5px; /* Adjust margin for better spacing */
+  }
+}
+
+
+
+/* Profile Picture Styles */
+.image-container {
+  float: left; /* Align the image to the left */
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+.image-container img {
+  width: 150px; /* Set the width for the image */
+  height: 200px; /* Set the height for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  border-radius: 10px; /* Add rounded corners for style */
+}
+
+.about-content {
+  overflow: hidden; /* Clear the float to prevent text wrapping around the image */
+}
+
+/* Adjust Text Color Based on Background */
+.about-content h2,
+.about-content p,
+#about h2;
+#skills h2,
+#experience h2,
+#contact h2,
+#education h2,
+  color: #fff;
+.contact-info p {
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+/* Hero Section Styles */
+#hero {
+  color: #fff; /* White Text Color for Dark Background */
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+}
+
+#hero h1 {
+  color: #fff; /* White Text Color for Dark Background */
+}
+
+form label {
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+form input,
+form textarea {
+  color: #fff; /* White Text Color for Dark Background */
+}
+
+form button {
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+form button:hover {
+  background-color: #8B4513; /* Darker Brown Hover Color */
+}
+/* Education Section Styles */
+#education {
+  margin-top: 20px;
+}
+/* Contact Section Styles */
+#contact {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5dc; /* Light Brown Background Color */
+  border-radius: 10px;
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+#contact h2 {
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #333; /* Dark Text Color for Light Background */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #6F4E37; /* Coffee Color Background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #8B4513; /* Darker Brown Hover Color */
+}
+.footer-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav a {
+  color: #fff; /* Light Text Color */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue Background Color */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.nav a:hover {
+  background-color: #0056b3; /* Darker Blue Background Color on Hover */
+}
+
+/* Specific Styles for Links */
+.nav a[href^="https://www.facebook.com"] {
+  background-color: #3b5998; /* Facebook Blue Background Color */
+}
+
+.nav a[href^="https://www.linkedin.com"] {
+  background-color: #0077b5; /* LinkedIn Blue Background Color */
+}
+
+.nav a[href^="mailto:"] {
+  background-color: #dc3545; /* Email Red Background Color */
+}
